@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/quant-ml-hero.svg" width="100%" alt="Rohit Kumar Pulamarasetty. Quantitative research and machine learning. An animated, illustrative market chart." />
+  <a name="profile-hero"><img src="./assets/quant-ml-hero.svg" width="100%" alt="Rohit Kumar Pulamarasetty. Quantitative research and machine learning. An animated, illustrative market chart." /></a>
 </p>
 
 <p align="center">
@@ -19,13 +19,13 @@ I’m studying Data Science and Applications at **IIT Madras** and building soft
 - **Machine learning** — feature engineering, simple baselines, and evaluating models on future periods without leaking information.
 
 <p align="center">
-  <img src="./assets/research-loop.svg" width="100%" alt="My research loop. Build a baseline, test it on held-out data, then study the errors and iterate." />
+  <a name="research-graphic"><img src="./assets/research-loop.svg" width="100%" alt="My research loop. Build a baseline, test it on held-out data, then study the errors and iterate." /></a>
 </p>
 
 ## Featured projects
 
 <p>
-  <a href="https://github.com/RohitPulamarasetty/desktop-companion-macos"><img src="./assets/desktop-companion.svg" width="100%" alt="Desktop Companion. A preview of the pixel-art companion picker." /></a>
+  <a name="desktop-companion-preview"><img src="./assets/desktop-companion.svg" width="100%" alt="Desktop Companion. A preview of the pixel-art companion picker." /></a>
 </p>
 
 A tiny macOS companion with 36 personalities, recurring reminders, and a Pomodoro timer. Tasks and history stay on your Mac.
@@ -33,7 +33,7 @@ A tiny macOS companion with 36 personalities, recurring reminders, and a Pomodor
 **[Get it for Mac](https://github.com/RohitPulamarasetty/desktop-companion-macos/releases)** · [Source code](https://github.com/RohitPulamarasetty/desktop-companion-macos)
 
 <p>
-  <a href="https://github.com/RohitPulamarasetty/iitm-grade-suite"><img src="./assets/iitm-grade-suite.svg" width="100%" alt="IITM Grade Suite. A preview of the live grade calculator landing page." /></a>
+  <a name="grade-suite-preview"><img src="./assets/iitm-grade-suite.svg" width="100%" alt="IITM Grade Suite. A preview of the live grade calculator landing page." /></a>
 </p>
 
 A grade calculator, end-term predictor, and CGPA tracker for IIT Madras BS students.
@@ -43,11 +43,28 @@ A grade calculator, end-term predictor, and CGPA tracker for IIT Madras BS stude
 ## Skills
 
 <p align="center">
-  <img src="./assets/skills-machine-learning.svg" width="438" alt="Machine learning: scikit-learn, PyTorch, Feature Engineering, Model Evaluation." />
-  <img src="./assets/skills-data-analysis.svg" width="438" alt="Data analysis: Python, SQL, Pandas, NumPy." />
+  <a name="skills-row-1">
+    <picture>
+      <source media="(max-width: 640px)" srcset="./assets/skills-row-1-mobile.svg" />
+      <img src="./assets/skills-row-1.svg" width="100%" alt="Machine Learning &amp; AI — scikit-learn, PyTorch, Pandas, NumPy, Deep Learning, Computer Vision, Feature Engineering, Model Evaluation. Languages — Python, SQL, JavaScript, TypeScript, HTML, CSS, Swift." />
+    </picture>
+  </a>
 </p>
 
 <p align="center">
-  <img src="./assets/skills-software.svg" width="438" alt="Software engineering: TypeScript, React, Next.js, PostgreSQL." />
-  <img src="./assets/skills-workflow.svg" width="438" alt="Research workflow: Jupyter, Tableau, Git, Linux CLI." />
+  <a name="skills-row-2">
+    <picture>
+      <source media="(max-width: 640px)" srcset="./assets/skills-row-2-mobile.svg" />
+      <img src="./assets/skills-row-2.svg" width="100%" alt="Web Development — React, Next.js, Vue.js, Flask, Node.js, Tailwind CSS, REST APIs. Databases &amp; Analytics — PostgreSQL, SQLite, Supabase, Tableau." />
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a name="skills-row-3">
+    <picture>
+      <source media="(max-width: 640px)" srcset="./assets/skills-row-3-mobile.svg" />
+      <img src="./assets/skills-row-3.svg" width="100%" alt="Tools &amp; Platforms — Git, GitHub, VS Code, Jupyter Notebook, Kaggle, Vercel, Cloudflare Pages, GitHub Pages, Postico. Systems &amp; Analytics — Linux CLI, Bash Automation, Google Analytics 4, Microsoft Clarity." />
+    </picture>
+  </a>
 </p>

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="471" height="732" viewBox="0 0 471 732" role="img" aria-labelledby="title desc" font-family="system-ui, sans-serif">
+  <title id="title">Web Development and Databases &amp; Analytics</title>
+  <desc id="desc">Web Development — React, Next.js, Vue.js, Flask, Node.js, Tailwind CSS, REST APIs. Databases &amp; Analytics — PostgreSQL, SQLite, Supabase, Tableau.</desc>
+  <defs>
+    <linearGradient id="panel"><stop stop-color="#181a31"/><stop offset="1" stop-color="#101821"/></linearGradient>
+    <style>
+      .pulse { animation: icon-pulse 4.4s ease-in-out infinite; }
+      .trace { stroke-dasharray: 68 535; animation: sweep 4.8s linear infinite; }
+      .beacon { transform-box: fill-box; transform-origin: center; animation: beacon 3.5s ease-out infinite; }
+      @keyframes icon-pulse { 0%,62%,100% { opacity:.22 } 22% { opacity:.98 } }
+      @keyframes sweep { from { stroke-dashoffset:68; opacity:0 } 18%,75% { opacity:.85 } to { stroke-dashoffset:-435; opacity:0 } }
+      @keyframes beacon { from { transform:scale(.7); opacity:.8 } 72%,to { transform:scale(2); opacity:0 } }
+      @media (prefers-reduced-motion: reduce) {
+        .pulse, .trace, .beacon { animation:none; }
+        .pulse { opacity:.42; }
+        .trace, .beacon { display:none; }
+      }
+    </style>
+  </defs>
+  <g transform="translate(0 0)" color="#d5f598">
+    <rect x=".75" y=".75" width="469.5" height="358.5" rx="22" fill="url(#panel)" stroke="currentColor" stroke-opacity=".48" stroke-width="1.5"/>
+    <circle class="beacon" cx="23" cy="32" r="6" fill="none" stroke="currentColor"/>
+    <circle cx="23" cy="32" r="3.5" fill="currentColor"/>
+    <text x="38" y="41" fill="currentColor" font-size="25" font-weight="720">Web Development</text>
+    <path d="M18 53h435" stroke="currentColor" stroke-opacity=".23"/>
+    <path class="trace" style="animation-delay:-1.30s" d="M18 53h435" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <g transform="translate(18 67.00)">
+      <rect x=".5" y=".5" width="211" height="59.00" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="11.00" width="38" height="38" rx="10" fill="#d0b7ff" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-2.0s" x="11" y="11.00" width="38" height="38" rx="10" fill="none" stroke="#d0b7ff" stroke-width="1.5"/>
+      <g transform="translate(18 18.00)" color="#d0b7ff" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="12" rx="10.2" ry="4"/><ellipse cx="12" cy="12" rx="10.2" ry="4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="10.2" ry="4" transform="rotate(120 12 12)"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="37.00">React</text></g>
+    </g>
+    <g transform="translate(241 67.00)">
+      <rect x=".5" y=".5" width="211" height="59.00" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="11.00" width="38" height="38" rx="10" fill="#d5f597" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-2.5s" x="11" y="11.00" width="38" height="38" rx="10" fill="none" stroke="#d5f597" stroke-width="1.5"/>
+      <g transform="translate(18 18.00)" color="#d5f597" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 16V8l12 13m-4-13v5"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="37.00">Next.js</text></g>
+    </g>
+    <g transform="translate(18 136.00)">
+      <rect x=".5" y=".5" width="211" height="59.00" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="11.00" width="38" height="38" rx="10" fill="#8ae5dd" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-3.0s" x="11" y="11.00" width="38" height="38" rx="10" fill="none" stroke="#8ae5dd" stroke-width="1.5"/>
+      <g transform="translate(18 18.00)" color="#8ae5dd" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h5l5 8 5-8h5L12 21Zm5 0 5 8 5-8"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="37.00">Vue.js</text></g>
+    </g>
+    <g transform="translate(241 136.00)">
+      <rect x=".5" y=".5" width="211" height="59.00" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="11.00" width="38" height="38" rx="10" fill="#ffca8f" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-3.5s" x="11" y="11.00" width="38" height="38" rx="10" fill="none" stroke="#ffca8f" stroke-width="1.5"/>
+      <g transform="translate(18 18.00)" color="#ffca8f" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3h8m-6 0v7L4 19a1.3 1.3 0 0 0 1 2h14a1.3 1.3 0 0 0 1-2l-6-9V3M8 14h8m-6 3h.01m4 1h.01"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="37.00">Flask</text></g>
+    </g>
+    <g transform="translate(18 205.00)">
+      <rect x=".5" y=".5" width="211" height="59.00" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="11.00" width="38" height="38" rx="10" fill="#c0bfff" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-4.0s" x="11" y="11.00" width="38" height="38" rx="10" fill="none" stroke="#c0bfff" stroke-width="1.5"/>
+      <g transform="translate(18 18.00)" color="#c0bfff" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 9 5v10l-9 5-9-5V7zM9 9v6c0 1-.8 1.5-1.7 1m8.7-6c-1.3-1-3.8-.6-3.8 1 0 1.5 4 1 4 2.8 0 1.8-3.1 2.4-4.5 1"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="37.00">Node.js</text></g>
+    </g>
+    <g transform="translate(241 205.00)">
+      <rect x=".5" y=".5" width="211" height="59.00" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="11.00" width="38" height="38" rx="10" fill="#f3a9dc" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-4.5s" x="11" y="11.00" width="38" height="38" rx="10" fill="none" stroke="#f3a9dc" stroke-width="1.5"/>
+      <g transform="translate(18 18.00)" color="#f3a9dc" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M2 10c2-5 6-6 10-3 2.5 2 4 3.5 7 1.5l2-2.5c-2 5-6 6-10 3-3-2-5-3-9 1Zm1 7c2-5 6-6 10-3 2.5 2 4 3.5 7 1.5l2-2.5c-2 5-6 6-10 3-3-2-5-3-9 1Z" fill="currentColor" stroke="none"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="37.00">Tailwind CSS</text></g>
+    </g>
+    <g transform="translate(18 274.00)">
+      <rect x=".5" y=".5" width="434" height="59.00" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="11.00" width="38" height="38" rx="10" fill="#9dc9ff" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-5.0s" x="11" y="11.00" width="38" height="38" rx="10" fill="none" stroke="#9dc9ff" stroke-width="1.5"/>
+      <g transform="translate(18 18.00)" color="#9dc9ff" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h17m-4-4 4 4-4 4m5 4H4m4-4-4 4 4 4"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="37.00">REST APIs</text></g>
+    </g>
+  </g>
+  <g transform="translate(0 372)" color="#87e3d1">
+    <rect x=".75" y=".75" width="469.5" height="358.5" rx="22" fill="url(#panel)" stroke="currentColor" stroke-opacity=".48" stroke-width="1.5"/>
+    <circle class="beacon" cx="23" cy="32" r="6" fill="none" stroke="currentColor"/>
+    <circle cx="23" cy="32" r="3.5" fill="currentColor"/>
+    <text x="38" y="41" fill="currentColor" font-size="25" font-weight="720">Databases &amp; Analytics</text>
+    <path d="M18 53h435" stroke="currentColor" stroke-opacity=".23"/>
+    <path class="trace" style="animation-delay:-1.95s" d="M18 53h435" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <g transform="translate(18 67.00)">
+      <rect x=".5" y=".5" width="434" height="59.00" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="11.00" width="38" height="38" rx="10" fill="#d5f597" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-3.0s" x="11" y="11.00" width="38" height="38" rx="10" fill="none" stroke="#d5f597" stroke-width="1.5"/>
+      <g transform="translate(18 18.00)" color="#d5f597" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5C9 2 4 3 3 7c-.5 3 .4 6 2.7 8.7L8 14m5-9c2.2-3 7.9-2.5 8 2.4.1 3.4-2.2 7.2-4.8 9m-2.4-4v6c0 1.3.5 2 1.8 2h2.2M9 7a3.6 3.6 0 1 0 2.8 6.4"/><path d="M8 9h.01m8.4 0h.01"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="37.00">PostgreSQL</text></g>
+    </g>
+    <g transform="translate(18 136.00)">
+      <rect x=".5" y=".5" width="434" height="59.00" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="11.00" width="38" height="38" rx="10" fill="#8ae5dd" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-3.5s" x="11" y="11.00" width="38" height="38" rx="10" fill="none" stroke="#8ae5dd" stroke-width="1.5"/>
+      <g transform="translate(18 18.00)" color="#8ae5dd" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M15 4h-2L4 5v15l10-1M7 17l10-12c1.6-2.1 4.4-.1 2.7 1.9L10 18l-3 1z"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="37.00">SQLite</text></g>
+    </g>
+    <g transform="translate(18 205.00)">
+      <rect x=".5" y=".5" width="434" height="59.00" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="11.00" width="38" height="38" rx="10" fill="#ffca8f" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-4.0s" x="11" y="11.00" width="38" height="38" rx="10" fill="none" stroke="#ffca8f" stroke-width="1.5"/>
+      <g transform="translate(18 18.00)" color="#ffca8f" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="m14 2-11 13h8v7l10-13h-7Z"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="37.00">Supabase</text></g>
+    </g>
+    <g transform="translate(18 274.00)">
+      <rect x=".5" y=".5" width="434" height="59.00" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="11.00" width="38" height="38" rx="10" fill="#c0bfff" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-4.5s" x="11" y="11.00" width="38" height="38" rx="10" fill="none" stroke="#c0bfff" stroke-width="1.5"/>
+      <g transform="translate(18 18.00)" color="#c0bfff" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v8m-4-4h8M5 4v6M2 7h6m11-3v6m-3-3h6M5 14v6m-3-3h6m11-3v6m-3-3h6M12 2v3m0 14v3"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="37.00">Tableau</text></g>
+    </g>
+  </g>
+</svg>

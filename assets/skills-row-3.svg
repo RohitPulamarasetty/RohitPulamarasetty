@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="427" viewBox="0 0 960 427" role="img" aria-labelledby="title desc" font-family="system-ui, sans-serif">
+  <title id="title">Tools &amp; Platforms and Systems &amp; Analytics</title>
+  <desc id="desc">Tools &amp; Platforms — Git, GitHub, VS Code, Jupyter Notebook, Kaggle, Vercel, Cloudflare Pages, GitHub Pages, Postico. Systems &amp; Analytics — Linux CLI, Bash Automation, Google Analytics 4, Microsoft Clarity.</desc>
+  <defs>
+    <linearGradient id="panel"><stop stop-color="#181a31"/><stop offset="1" stop-color="#101821"/></linearGradient>
+    <style>
+      .pulse { animation: icon-pulse 4.4s ease-in-out infinite; }
+      .trace { stroke-dasharray: 68 535; animation: sweep 4.8s linear infinite; }
+      .beacon { transform-box: fill-box; transform-origin: center; animation: beacon 3.5s ease-out infinite; }
+      @keyframes icon-pulse { 0%,62%,100% { opacity:.22 } 22% { opacity:.98 } }
+      @keyframes sweep { from { stroke-dashoffset:68; opacity:0 } 18%,75% { opacity:.85 } to { stroke-dashoffset:-435; opacity:0 } }
+      @keyframes beacon { from { transform:scale(.7); opacity:.8 } 72%,to { transform:scale(2); opacity:0 } }
+      @media (prefers-reduced-motion: reduce) {
+        .pulse, .trace, .beacon { animation:none; }
+        .pulse { opacity:.42; }
+        .trace, .beacon { display:none; }
+      }
+    </style>
+  </defs>
+  <g transform="translate(0 0)" color="#ffc49c">
+    <rect x=".75" y=".75" width="469.5" height="425.5" rx="22" fill="url(#panel)" stroke="currentColor" stroke-opacity=".48" stroke-width="1.5"/>
+    <circle class="beacon" cx="23" cy="32" r="6" fill="none" stroke="currentColor"/>
+    <circle cx="23" cy="32" r="3.5" fill="currentColor"/>
+    <text x="38" y="41" fill="currentColor" font-size="25" font-weight="720">Tools &amp; Platforms</text>
+    <path d="M18 53h435" stroke="currentColor" stroke-opacity=".23"/>
+    <path class="trace" style="animation-delay:-2.60s" d="M18 53h435" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <g transform="translate(18 67.00)">
+      <rect x=".5" y=".5" width="211" height="58.60" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="10.80" width="38" height="38" rx="10" fill="#8ae5dd" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-4.0s" x="11" y="10.80" width="38" height="38" rx="10" fill="none" stroke="#8ae5dd" stroke-width="1.5"/>
+      <g transform="translate(18 17.80)" color="#8ae5dd" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="4.5" width="15" height="15" rx="2" transform="rotate(45 12 12)"/><path d="M8 5l7 7m-5-5v10"/><circle cx="10" cy="17" r="1.4"/><circle cx="15" cy="12" r="1.4"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="36.80">Git</text></g>
+    </g>
+    <g transform="translate(241 67.00)">
+      <rect x=".5" y=".5" width="211" height="58.60" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="10.80" width="38" height="38" rx="10" fill="#ffca8f" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-4.5s" x="11" y="10.80" width="38" height="38" rx="10" fill="none" stroke="#ffca8f" stroke-width="1.5"/>
+      <g transform="translate(18 17.80)" color="#ffca8f" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M8 19c-4.7 0-4.7-3-6-4m14 6v-3.7c0-1-.4-1.8-1-2.3 3.3-.4 5-1.6 5-5a4.3 4.3 0 0 0-1-3c.2-1 .2-2.3-.3-3 0 0-1.5 0-3.5 1.2a13 13 0 0 0-6.4 0C6.8 4 5.3 4 5.3 4 4.8 4.7 4.8 6 5 7a4.3 4.3 0 0 0-1 3c0 3.4 1.7 4.6 5 5-.6.5-1 1.3-1 2.3V21"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="36.80">GitHub</text></g>
+    </g>
+    <g transform="translate(18 135.60)">
+      <rect x=".5" y=".5" width="211" height="58.60" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="10.80" width="38" height="38" rx="10" fill="#c0bfff" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-5.0s" x="11" y="10.80" width="38" height="38" rx="10" fill="none" stroke="#c0bfff" stroke-width="1.5"/>
+      <g transform="translate(18 17.80)" color="#c0bfff" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="m3 8 1 9 14-13 4 2v12l-4 2L4 7zm15-4v16"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="36.80">VS Code</text></g>
+    </g>
+    <g transform="translate(241 135.60)">
+      <rect x=".5" y=".5" width="211" height="58.60" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="10.80" width="38" height="38" rx="10" fill="#f3a9dc" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-5.5s" x="11" y="10.80" width="38" height="38" rx="10" fill="none" stroke="#f3a9dc" stroke-width="1.5"/>
+      <g transform="translate(18 17.80)" color="#f3a9dc" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9a9.5 6 0 0 1 16 0M4 15a9.5 6 0 0 0 16 0"/><circle cx="18" cy="3" r="1" fill="currentColor" stroke="none"/><circle cx="5" cy="21" r="1" fill="currentColor" stroke="none"/><circle cx="7" cy="4" r=".7" fill="currentColor" stroke="none"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="27.80">Jupyter</text><text x="59" y="47.80">Notebook</text></g>
+    </g>
+    <g transform="translate(18 204.20)">
+      <rect x=".5" y=".5" width="211" height="58.60" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="10.80" width="38" height="38" rx="10" fill="#9dc9ff" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-6.0s" x="11" y="10.80" width="38" height="38" rx="10" fill="none" stroke="#9dc9ff" stroke-width="1.5"/>
+      <g transform="translate(18 17.80)" color="#9dc9ff" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3v18m0-6 9-7m-6 5 7 8"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="36.80">Kaggle</text></g>
+    </g>
+    <g transform="translate(241 204.20)">
+      <rect x=".5" y=".5" width="211" height="58.60" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="10.80" width="38" height="38" rx="10" fill="#a8d8ff" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-6.5s" x="11" y="10.80" width="38" height="38" rx="10" fill="none" stroke="#a8d8ff" stroke-width="1.5"/>
+      <g transform="translate(18 17.80)" color="#a8d8ff" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="m12 4 10 16H2z"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="36.80">Vercel</text></g>
+    </g>
+    <g transform="translate(18 272.80)">
+      <rect x=".5" y=".5" width="211" height="58.60" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="10.80" width="38" height="38" rx="10" fill="#ffa996" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-7.0s" x="11" y="10.80" width="38" height="38" rx="10" fill="none" stroke="#ffa996" stroke-width="1.5"/>
+      <g transform="translate(18 17.80)" color="#ffa996" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a3 3 0 1 1 .7-5.9 6 6 0 0 1 11.1-2.5 4.5 4.5 0 1 1 2.7 8.4H4Z"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="27.80">Cloudflare</text><text x="59" y="47.80">Pages</text></g>
+    </g>
+    <g transform="translate(241 272.80)">
+      <rect x=".5" y=".5" width="211" height="58.60" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="10.80" width="38" height="38" rx="10" fill="#d0b7ff" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-7.5s" x="11" y="10.80" width="38" height="38" rx="10" fill="none" stroke="#d0b7ff" stroke-width="1.5"/>
+      <g transform="translate(18 17.80)" color="#d0b7ff" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="M2 8h20m-13 4-2 2 2 2m6-4 2 2-2 2"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="36.80">GitHub Pages</text></g>
+    </g>
+    <g transform="translate(18 341.40)">
+      <rect x=".5" y=".5" width="434" height="58.60" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="10.80" width="38" height="38" rx="10" fill="#d5f597" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-8.0s" x="11" y="10.80" width="38" height="38" rx="10" fill="none" stroke="#d5f597" stroke-width="1.5"/>
+      <g transform="translate(18 17.80)" color="#d5f597" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6m-16 6c0 1.7 3.6 3 8 3"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="36.80">Postico</text></g>
+    </g>
+  </g>
+  <g transform="translate(489 0)" color="#f2b7ea">
+    <rect x=".75" y=".75" width="469.5" height="425.5" rx="22" fill="url(#panel)" stroke="currentColor" stroke-opacity=".48" stroke-width="1.5"/>
+    <circle class="beacon" cx="23" cy="32" r="6" fill="none" stroke="currentColor"/>
+    <circle cx="23" cy="32" r="3.5" fill="currentColor"/>
+    <text x="38" y="41" fill="currentColor" font-size="25" font-weight="720">Systems &amp; Analytics</text>
+    <path d="M18 53h435" stroke="currentColor" stroke-opacity=".23"/>
+    <path class="trace" style="animation-delay:-3.25s" d="M18 53h435" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    <g transform="translate(18 67.00)">
+      <rect x=".5" y=".5" width="434" height="75.75" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="19.38" width="38" height="38" rx="10" fill="#ffca8f" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-5.0s" x="11" y="19.38" width="38" height="38" rx="10" fill="none" stroke="#ffca8f" stroke-width="1.5"/>
+      <g transform="translate(18 26.38)" color="#ffca8f" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m6 9 3 3-3 3m6 0h5"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="45.38">Linux CLI</text></g>
+    </g>
+    <g transform="translate(18 152.75)">
+      <rect x=".5" y=".5" width="434" height="75.75" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="19.38" width="38" height="38" rx="10" fill="#c0bfff" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-5.5s" x="11" y="19.38" width="38" height="38" rx="10" fill="none" stroke="#c0bfff" stroke-width="1.5"/>
+      <g transform="translate(18 26.38)" color="#c0bfff" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 9 5v10l-9 5-9-5V7zm-5 7 3 3-3 3m5 0h5"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="45.38">Bash Automation</text></g>
+    </g>
+    <g transform="translate(18 238.50)">
+      <rect x=".5" y=".5" width="434" height="75.75" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="19.38" width="38" height="38" rx="10" fill="#f3a9dc" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-6.0s" x="11" y="19.38" width="38" height="38" rx="10" fill="none" stroke="#f3a9dc" stroke-width="1.5"/>
+      <g transform="translate(18 26.38)" color="#f3a9dc" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M18 4v16M12 10v10m-6-4v4" stroke-width="3"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="45.38">Google Analytics 4</text></g>
+    </g>
+    <g transform="translate(18 324.25)">
+      <rect x=".5" y=".5" width="434" height="75.75" rx="12" fill="#181d32" stroke="#404463"/>
+      <rect x="11" y="19.38" width="38" height="38" rx="10" fill="#9dc9ff" fill-opacity=".13"/>
+      <rect class="pulse" style="animation-delay:-6.5s" x="11" y="19.38" width="38" height="38" rx="10" fill="none" stroke="#9dc9ff" stroke-width="1.5"/>
+      <g transform="translate(18 26.38)" color="#9dc9ff" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 10 10-10 10L2 12Zm0 5 5 5-5 5-5-5Z"/></g>
+      <g fill="#f6f2ff" font-size="21" font-weight="620"><text x="59" y="45.38">Microsoft Clarity</text></g>
+    </g>
+  </g>
+</svg>
