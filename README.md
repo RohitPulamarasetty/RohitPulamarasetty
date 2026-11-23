@@ -25,7 +25,7 @@ I’m studying Data Science and Applications at **IIT Madras** and building soft
 ## Featured projects
 
 <p>
-  <a name="desktop-companion-preview"><img src="./assets/desktop-companion.svg" width="100%" alt="Desktop Companion. A preview of the pixel-art companion picker." /></a>
+  <a href="https://github.com/RohitPulamarasetty/desktop-companion-macos/releases"><img src="./assets/desktop-companion.svg" width="100%" alt="Get Desktop Companion for Mac" /></a>
 </p>
 
 A tiny macOS companion with 36 personalities, recurring reminders, and a Pomodoro timer. Tasks and history stay on your Mac.
@@ -33,7 +33,7 @@ A tiny macOS companion with 36 personalities, recurring reminders, and a Pomodor
 **[Get it for Mac](https://github.com/RohitPulamarasetty/desktop-companion-macos/releases)** · [Source code](https://github.com/RohitPulamarasetty/desktop-companion-macos)
 
 <p>
-  <a name="grade-suite-preview"><img src="./assets/iitm-grade-suite.svg" width="100%" alt="IITM Grade Suite. A preview of the live grade calculator landing page." /></a>
+  <a href="https://iitm-grade-suite.pages.dev/"><img src="./assets/iitm-grade-suite.svg" width="100%" alt="Open IITM Grade Suite" /></a>
 </p>
 
 A grade calculator, end-term predictor, and CGPA tracker for IIT Madras BS students.
