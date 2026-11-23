@@ -43,5 +43,11 @@ A grade calculator, end-term predictor, and CGPA tracker for IIT Madras BS stude
 ## Skills
 
 <p align="center">
-  <img src="./assets/skills.svg" width="100%" alt="Data and research tools: Python, SQL, Tableau, and Git. App and web tools: Swift, SQLite, TypeScript, and Next.js." />
+  <img src="./assets/skills-machine-learning.svg" width="438" alt="Machine learning: scikit-learn, PyTorch, Feature Engineering, Model Evaluation." />
+  <img src="./assets/skills-data-analysis.svg" width="438" alt="Data analysis: Python, SQL, Pandas, NumPy." />
+</p>
+
+<p align="center">
+  <img src="./assets/skills-software.svg" width="438" alt="Software engineering: TypeScript, React, Next.js, PostgreSQL." />
+  <img src="./assets/skills-workflow.svg" width="438" alt="Research workflow: Jupyter, Tableau, Git, Linux CLI." />
 </p>
