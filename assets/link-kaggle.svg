@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="42" viewBox="0 0 130 42">
+  <title>Kaggle</title>
+  <rect x=".5" y=".5" width="129" height="41" rx="11" fill="#141629" stroke="#494867"/>
+  <rect x="6" y="6" width="30" height="30" rx="8" fill="#8eddff" fill-opacity=".13"/>
+  <g transform="translate(12 12) scale(.75)" fill="none" stroke="#8eddff" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3v18m0-6 9-7m-6 5 7 8"/></g>
+  <text x="44" y="27" fill="#f1edff" font-family="system-ui, sans-serif" font-size="15" font-weight="650">Kaggle</text>
+  <path d="m114 24 5-5m-5 0h5v5" fill="none" stroke="#8eddff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity=".75"/>
+</svg>
