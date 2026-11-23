@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="392" viewBox="0 0 1120 392" role="img" aria-labelledby="title desc">
+  <title id="title">Rohit Kumar Pulamarasetty</title>
+  <desc id="desc">Quantitative research and machine learning. A scanning line moves across an illustrative market chart.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#14162b"/>
+      <stop offset="1" stop-color="#090b14"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#6952e8" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#6952e8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line">
+      <stop stop-color="#9c86ff"/>
+      <stop offset=".56" stop-color="#a0aaff"/>
+      <stop offset="1" stop-color="#d8fa86"/>
+    </linearGradient>
+    <linearGradient id="area" x2="0" y2="1">
+      <stop stop-color="#a389fb" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#a389fb" stop-opacity=".015"/>
+    </linearGradient>
+    <linearGradient id="beam">
+      <stop stop-color="#dbfc96" stop-opacity="0"/>
+      <stop offset="1" stop-color="#dbfc96" stop-opacity=".2"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 40V0H40" fill="none" stroke="#393953" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1120" height="392" rx="26"/></clipPath>
+    <clipPath id="plot"><rect x="555" y="81" width="487" height="231" rx="4"/></clipPath>
+    <style>
+      .scan { animation: scan 7s linear infinite; }
+      .trace { stroke-dasharray: 5 8; animation: tick 4s linear infinite; }
+      .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.8s ease-out infinite; }
+      .glow { transform-origin: 930px 150px; animation: glow 9s ease-in-out infinite alternate; }
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; letter-spacing: 2px; }
+      .sans { font-family: system-ui, 'Segoe UI', sans-serif; }
+      @keyframes scan { from { transform: translateX(0); } to { transform: translateX(640px); } }
+      @keyframes tick { to { stroke-dashoffset: -39; } }
+      @keyframes pulse { 0% { transform: scale(.65); opacity: .9; } 80%,100% { transform: scale(1.8); opacity: 0; } }
+      @keyframes glow { to { transform: translate(-80px, 30px) scale(1.24); opacity: .55; } }
+      @media (prefers-reduced-motion: reduce) {
+        .scan, .trace, .pulse, .glow { animation: none; }
+        .scan { display: none; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1120" height="392" fill="url(#background)"/>
+    <ellipse class="glow" cx="930" cy="150" rx="560" ry="365" fill="url(#halo)"/>
+    <path d="M46 344H1074" stroke="#33354f"/>
+
+    <circle cx="57" cy="64" r="15" stroke="#dcf994" stroke-width="1.4" fill="none" class="pulse"/>
+    <circle cx="57" cy="64" r="5" fill="#dcf994"/>
+    <text x="77" y="70" fill="#dcf994" font-size="15" class="mono">IIT MADRAS · DATA SCIENCE</text>
+    <text x="45" y="151" fill="#f6f3ff" font-size="76" font-weight="750" letter-spacing="-4.2" class="sans">Rohit Kumar</text>
+    <text x="47" y="212" fill="#f6f3ff" font-size="53" font-weight="650" letter-spacing="-2.5" class="sans">Pulamarasetty</text>
+    <path d="M49 239h42" stroke="#dcf994" stroke-width="3" stroke-linecap="round"/>
+    <text x="47" y="286" fill="#dcf994" font-size="27" font-weight="630" class="sans">Quantitative Research</text>
+    <text x="47" y="319" fill="#ccc0ff" font-size="27" font-weight="630" class="sans">Machine Learning</text>
+
+    <rect x="529" y="45" width="546" height="284" rx="16" fill="#0f1122" fill-opacity=".8" stroke="#41425f"/>
+    <text x="553" y="70" fill="#e2dcff" font-size="12" class="mono">ILLUSTRATIVE MARKET SERIES</text>
+    <circle cx="1044" cy="65" r="3" fill="#dcf994"/>
+    <rect x="555" y="81" width="487" height="231" fill="url(#grid)"/>
+    <g clip-path="url(#plot)">
+      <g transform="translate(560 88)" stroke-width="1.3">
+        <g stroke="#7f6cb4" fill="#695691">
+          <path d="M16 144v38m30-64v39m45-35v39m45-85v45m44-28v54m45-80v53m45-58v56m44-89v49m45-47v48m45-55v44m45-86v42"/>
+          <path d="M12 151h8v18h-8zm30-24h8v21h-8zm45 6h8v17h-8zm45-45h8v23h-8zm44 16h8v29h-8zm45-24h8v23h-8zm45-3h8v24h-8zm44-31h8v22h-8zm45-2h8v22h-8zm45-12h8v26h-8zm45-35h8v21h-8z"/>
+        </g>
+        <g stroke="#a8d789" fill="#739d69">
+          <path d="M30 131v38m30-69v55m15-48v43m30-48v46m15-60v37m30-43v44m15-35v41m30-40v39m15-62v51m30-58v50m15-37v48m30-83v54m15-56v40m30-51v51m15-62v49m30-53v46m15-55v51m30-55v48m15-61v42m30-42v44"/>
+          <path d="M26 139h8v18h-8zm30-27h8v23h-8zm15 5h8v21h-8zm30-6h8v22h-8zm15-16h8v22h-8zm30 0h8v19h-8zm15 6h8v20h-8zm30 2h8v18h-8zm15-20h8v23h-8zm30-9h8v22h-8zm15 12h8v23h-8zm30-35h8v28h-8zm15-4h8v21h-8zm30-7h8v22h-8zm15-11h8v24h-8zm30-3h8v21h-8zm15-9h8v25h-8zm30-5h8v23h-8zm15-12h8v21h-8zm30 1h8v19h-8z"/>
+        </g>
+      </g>
+      <path d="M555 270l22 5 23-25 22 9 23-32 22-3 22 13 23-31 22 12 23-7 22-26 23 9 22-7 22-24 23 9 22-9 23-18 22 8 22-19 23 1 22-23 30-8v213H555Z" fill="url(#area)"/>
+      <path d="M555 270l22 5 23-25 22 9 23-32 22-3 22 13 23-31 22 12 23-7 22-26 23 9 22-7 22-24 23 9 22-9 23-18 22 8 22-19 23 1 22-23 30-8" fill="none" stroke="url(#line)" stroke-width="3" stroke-linejoin="round"/>
+      <path class="trace" d="M555 283c52-9 89-33 123-32s72-24 120-33 86-27 122-48 83-31 114-34" fill="none" stroke="#b9abff" stroke-opacity=".65" stroke-width="1.5"/>
+      <g class="scan">
+        <path d="M412 81h140v231H412Z" fill="url(#beam)"/>
+        <path d="M552 81v231" fill="none" stroke="#dbfc96" stroke-opacity=".65"/>
+      </g>
+    </g>
+    <circle cx="1033" cy="104" r="5" fill="#dcf994"/>
+    <circle cx="1033" cy="104" r="10" fill="none" stroke="#dcf994" class="pulse"/>
+
+    <text x="47" y="370" fill="#c2bada" font-size="13" class="mono">@ROHITPULAMARASETTY</text>
+    <text x="1074" y="370" text-anchor="end" fill="#c2bada" font-size="13" class="mono">FEATURES / SIGNALS / EVALUATION</text>
+  </g>
+  <rect x=".75" y=".75" width="1118.5" height="390.5" rx="25" fill="none" stroke="#50536f" stroke-width="1.5"/>
+</svg>
